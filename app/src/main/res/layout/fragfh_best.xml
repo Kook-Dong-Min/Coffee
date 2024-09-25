@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_fh">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cold_brew_float"
+        app:srcCompat="@drawable/cold_brew_float_waifu2x_photo_noise1_scale" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cold_brew_malt"
+        app:srcCompat="@drawable/cold_brew_malt_waifu2x_photo_noise1_scale" />
+</GridLayout>
